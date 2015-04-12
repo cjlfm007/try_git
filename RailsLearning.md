@@ -12,10 +12,18 @@ resources :photos
 會建立出七筆不同的路由，皆對應到 PhotosController：
 
 HTTP 動詞	路徑	Controller#動作	用途
+
 GET	/photos	photos#index	顯示所有圖片
+
 GET	/photos/new	photos#new	回傳建立新圖片的表單
+
 POST	/photos	photos#create	建立新圖片
+
 GET	/photos/:id	photos#show	顯示特定圖片
+
 GET	/photos/:id/edit	photos#edit	回傳編輯圖片的表單
+
 PATCH/PUT	/photos/:id	photos#update	更新特定圖片
+
 DELETE	/photos/:id	photos#destroy	刪除特定圖片
+
