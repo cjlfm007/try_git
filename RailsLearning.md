@@ -31,3 +31,5 @@ PATCH/PUT	/photos/:id	photos#update	更新特定圖片
 
 DELETE	/photos/:id	photos#destroy	刪除特定圖片
 
+
+介绍ruby module ：http://learnrubythehardway.org/book/ex40.html
